@@ -4,8 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-	    System.out.println("Witaj");
+        String witaj, imie;
+
+        witaj = "Witaj";
+        imie = args[0];
+
+	    System.out.printf("%s osobo o imieniu: %s\n%n",witaj, imie);
 
         System.exit(0);
     }
+
 }
